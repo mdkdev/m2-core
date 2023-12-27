@@ -1,0 +1,17 @@
+{
+  "name": "mdkdev/m2-core",
+  "description": "This module is used as a base for multiple mdkdev modules.",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mdkdev\\Core\\": ""
+    }
+  }
+}
